@@ -1,0 +1,306 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2306                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    location    "0";
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    inlet
+    {
+        type            pressureInletOutletVelocity;
+        value           uniform (0 0 0);
+    }
+
+    outlet
+    {
+        type            pressureInletOutletVelocity;
+        value           uniform (0 0 0);
+    }
+
+    outlet2
+    {
+        type            pressureInletOutletVelocity;
+        value           uniform (0 0 0);
+    }
+
+    outlet3
+    {
+        type            pressureInletOutletVelocity;
+        value           uniform (0 0 0);
+    }
+
+    building
+    {
+        type            noSlip;
+    }
+
+    fixedpatchs
+    {
+        type            noSlip;
+    }
+
+    HF-1
+    {
+        type            noSlip;
+    }
+
+    HF-2
+    {
+        type            noSlip;
+    }
+
+    HF-3
+    {
+        type            noSlip;
+    }
+
+    HF-4
+    {
+        type            noSlip;
+    }
+
+    HF-5
+    {
+        type            noSlip;
+    }
+
+    HF-6
+    {
+        type            noSlip;
+    }
+
+    HF-7
+    {
+        type            noSlip;
+    }
+
+    HF-10
+    {
+        type            noSlip;
+    }
+
+    HF-11
+    {
+        type            noSlip;
+    }
+
+    HF-12
+    {
+        type            noSlip;
+    }
+
+    HF-17
+    {
+        type            noSlip;
+    }
+
+    HF-19
+    {
+        type            noSlip;
+    }
+
+    HF-21
+    {
+        type            noSlip;
+    }
+
+    HF-23
+    {
+        type            noSlip;
+    }
+
+    HF-24
+    {
+        type            noSlip;
+    }
+
+    HF-25
+    {
+        type            noSlip;
+    }
+
+    HF-26
+    {
+        type            noSlip;
+    }
+
+    HF-32
+    {
+        type            noSlip;
+    }
+
+    HF-33
+    {
+        type            noSlip;
+    }
+
+    HF-34
+    {
+        type            noSlip;
+    }
+
+    HF-35
+    {
+        type            noSlip;
+    }
+
+    HF-36
+    {
+        type            noSlip;
+    }
+
+    HF-37
+    {
+        type            noSlip;
+    }
+
+    HF-39
+    {
+        type            noSlip;
+    }
+
+    HF-60
+    {
+        type            noSlip;
+    }
+
+    HF-61
+    {
+        type            noSlip;
+    }
+
+    HF-62
+    {
+        type            noSlip;
+    }
+
+    HF-63
+    {
+        type            noSlip;
+    }
+
+    HF-64
+    {
+        type            noSlip;
+    }
+
+    HF-65
+    {
+        type            noSlip;
+    }
+
+    HF-66
+    {
+        type            noSlip;
+    }
+
+    HF-67
+    {
+        type            noSlip;
+    }
+
+    HF-68
+    {
+        type            noSlip;
+    }
+
+    HF-69
+    {
+        type            noSlip;
+    }
+
+    HF-70
+    {
+        type            noSlip;
+    }
+
+    HF-90
+    {
+        type            noSlip;
+    }
+
+    HF-91
+    {
+        type            noSlip;
+    }
+
+    HF-92
+    {
+        type            noSlip;
+    }
+
+    HF-94
+    {
+        type            noSlip;
+    }
+
+    HF-95
+    {
+        type            noSlip;
+    }
+
+    HF-96
+    {
+        type            noSlip;
+    }
+
+    HF-97
+    {
+        type            noSlip;
+    }
+
+    HF-WHTT-1
+    {
+        type            noSlip;
+    }
+
+    HF-WHTT-2
+    {
+        type            noSlip;
+    }
+
+    HF-WHTT-3
+    {
+        type            noSlip;
+    }
+
+    HF-WHTT-4
+    {
+        type            noSlip;
+    }
+
+    HF-WHTT-7
+    {
+        type            noSlip;
+    }
+
+    HF-WHTT-8
+    {
+        type            noSlip;
+    }
+
+    WHTT-6
+    {
+        type            noSlip;
+    }
+
+}
+
+// ************************************************************************* //

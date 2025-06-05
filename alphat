@@ -1,0 +1,301 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 | OpenFOAM: The Open Source CFD Toolbox           |
+| \\      /  Field         | Version:  2306                                  |
+|  \\    /   Operation    | www.openfoam.com                               |
+|    \\/     Manipulation |                                                 |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      alphat;
+}
+
+// turbulent viscosity (mu_t/Pr_t) – same dims as dynamic viscosity
+dimensions      [0  2  -1  0  0  0  0];
+
+internalField   uniform 0;    // start with zero eddy viscosity
+
+boundaryField
+{
+    inlet
+    {
+        type            calculated;
+        value           uniform 0;
+    }
+
+    outlet
+    {
+        type            zeroGradient;
+    }
+
+    outlet2
+    {
+        type            zeroGradient;
+    }
+
+    outlet3
+    {
+        type            zeroGradient;
+    }
+
+    building
+    {
+        type            zeroGradient;
+    }
+
+    HF-1
+    {
+        type            zeroGradient;
+    }
+
+    HF-2
+    {
+        type            zeroGradient;
+    }
+
+    HF-3
+    {
+        type            zeroGradient;
+    }
+
+    HF-4
+    {
+        type            zeroGradient;
+    }
+
+    HF-5
+    {
+        type            zeroGradient;
+    }
+
+    HF-6
+    {
+        type            zeroGradient;
+    }
+
+    HF-7
+    {
+        type            zeroGradient;
+    }
+
+    HF-10
+    {
+        type            zeroGradient;
+    }
+
+    HF-11
+    {
+        type            zeroGradient;
+    }
+
+    HF-12
+    {
+        type            zeroGradient;
+    }
+
+    HF-17
+    {
+        type            zeroGradient;
+    }
+
+    HF-19
+    {
+        type            zeroGradient;
+    }
+
+    HF-21
+    {
+        type            zeroGradient;
+    }
+
+    HF-23
+    {
+        type            zeroGradient;
+    }
+
+    HF-24
+    {
+        type            zeroGradient;
+    }
+
+    HF-25
+    {
+        type            zeroGradient;
+    }
+
+    HF-26
+    {
+        type            zeroGradient;
+    }
+
+    HF-32
+    {
+        type            zeroGradient;
+    }
+
+    HF-33
+    {
+        type            zeroGradient;
+    }
+
+    HF-34
+    {
+        type            zeroGradient;
+    }
+
+    HF-35
+    {
+        type            zeroGradient;
+    }
+
+    HF-36
+    {
+        type            zeroGradient;
+    }
+
+    HF-37
+    {
+        type            zeroGradient;
+    }
+
+    HF-39
+    {
+        type            zeroGradient;
+    }
+
+    HF-60
+    {
+        type            zeroGradient;
+    }
+
+    HF-61
+    {
+        type            zeroGradient;
+    }
+
+    HF-62
+    {
+        type            zeroGradient;
+    }
+
+    HF-63
+    {
+        type            zeroGradient;
+    }
+
+    HF-64
+    {
+        type            zeroGradient;
+    }
+
+    HF-65
+    {
+        type            zeroGradient;
+    }
+
+    HF-66
+    {
+        type            zeroGradient;
+    }
+
+    HF-67
+    {
+        type            zeroGradient;
+    }
+
+    HF-68
+    {
+        type            zeroGradient;
+    }
+
+    HF-69
+    {
+        type            zeroGradient;
+    }
+
+    HF-70
+    {
+        type            zeroGradient;
+    }
+
+    HF-90
+    {
+        type            zeroGradient;
+    }
+
+    HF-91
+    {
+        type            zeroGradient;
+    }
+
+    HF-92
+    {
+        type            zeroGradient;
+    }
+
+    HF-94
+    {
+        type            zeroGradient;
+    }
+
+    HF-95
+    {
+        type            zeroGradient;
+    }
+
+    HF-96
+    {
+        type            zeroGradient;
+    }
+
+    HF-97
+    {
+        type            zeroGradient;
+    }
+
+    HF-WHTT-1
+    {
+        type            zeroGradient;
+    }
+
+    HF-WHTT-2
+    {
+        type            zeroGradient;
+    }
+
+    HF-WHTT-3
+    {
+        type            zeroGradient;
+    }
+
+    HF-WHTT-4
+    {
+        type            zeroGradient;
+    }
+
+    HF-WHTT-7
+    {
+        type            zeroGradient;
+    }
+
+    HF-WHTT-8
+    {
+        type            zeroGradient;
+    }
+
+    WHTT-6
+    {
+        type            zeroGradient;
+    }
+
+    fixedpatchs
+    {
+        type            zeroGradient;
+    }
+}
+
+// ************************************************************************* //
