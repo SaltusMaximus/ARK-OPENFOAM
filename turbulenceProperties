@@ -1,0 +1,28 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 | The OpenFOAM CFD Toolbox                    |
+| \\      /  Field         | Version: 2306                                |
+|  \\      /   Operation     | www.openfoam.com                             |
+|   \\  /    And          |                                              |
+|    \\/     Manipulation   |                                              |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      turbulenceProperties;  // or “RASProperties” if that’s what you prefer
+}
+
+// Simply select the k-ε RAS model:
+simulationType  RAS;
+
+RAS
+{
+    RASModel        kEpsilon;
+    turbulence      on;
+    printCoeffs     on;
+}
+
+transportModel  Newtonian;      // confirms μ→ν mapping

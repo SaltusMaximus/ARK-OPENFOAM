@@ -1,0 +1,43 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  Field         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     |                                                 |
+|   \\  /    A nd           |                                                 |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      radiationProperties;
+}
+
+// Select the radiation model
+radiationModel             P1;
+
+// Absorption and emission model
+absorptionEmissionModel    constantAbsorptionEmission;
+
+// (we're not scattering here)
+scatterModel               none;
+
+// --- This name must be <typeName> + "Coeffs" → "constantAbsorptionEmissionCoeffs" ---
+constantAbsorptionEmissionCoeffs
+{
+    absorptivity    0.05;    // [1/m]
+    emissivity      0.9;     // [0–1]
+    E               1e3;     // volumetric emission [W/m^3] – set to your source strength
+}
+
+// P1‐specific settings:
+P1
+{
+    wallEmissivity      0.9;   // emissivity of walls
+    temperatureExponent 1.0;
+}
+
+// disable any soot submodel
+sootModel none;

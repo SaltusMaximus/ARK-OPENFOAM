@@ -1,0 +1,25 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 | OpenFOAM: The Open Source CFD Toolbox           |
+| \\      /  Field         | Version: 2306                                   |
+|  \\    /   Operation     | www.openfoam.com                                |
+|   \\  /    And          |                                                 |
+|    \\/     Manipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+
+// In BuoyantPimpleFoam (2306), you supply ν (kinematic viscosity) and Pr.  
+// The solver will compute μ = ρ * ν behind the scenes (so μ has [1 -1 -1 0 0 0 0]).
+
+transportModel  Newtonian;
+
+mu [1 -1 -1 0 0 0 0] 1.8e-05;
+Prandtl       0.7;  // if needed
+
