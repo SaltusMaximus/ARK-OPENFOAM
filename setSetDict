@@ -1,0 +1,223 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      setSetDict;
+}
+
+commands
+(
+    faceZoneToFaceSet heatSource1 heatSource1_faces;
+    faceToCell heatSource1_faces heatSource1_cells;
+    cellSetToCellZone heatSource1_cells heatSource1;
+
+    faceZoneToFaceSet heatSource2 heatSource2_faces;
+    faceToCell heatSource2_faces heatSource2_cells;
+    cellSetToCellZone heatSource2_cells heatSource2;
+
+    faceZoneToFaceSet heatSource3 heatSource3_faces;
+    faceToCell heatSource3_faces heatSource3_cells;
+    cellSetToCellZone heatSource3_cells heatSource3;
+
+    faceZoneToFaceSet heatSource4 heatSource4_faces;
+    faceToCell heatSource4_faces heatSource4_cells;
+    cellSetToCellZone heatSource4_cells heatSource4;
+
+    faceZoneToFaceSet heatSource5 heatSource5_faces;
+    faceToCell heatSource5_faces heatSource5_cells;
+    cellSetToCellZone heatSource5_cells heatSource5;
+
+    faceZoneToFaceSet heatSource6 heatSource6_faces;
+    faceToCell heatSource6_faces heatSource6_cells;
+    cellSetToCellZone heatSource6_cells heatSource6;
+
+    faceZoneToFaceSet heatSource7 heatSource7_faces;
+    faceToCell heatSource7_faces heatSource7_cells;
+    cellSetToCellZone heatSource7_cells heatSource7;
+
+    faceZoneToFaceSet heatSource8 heatSource8_faces;
+    faceToCell heatSource8_faces heatSource8_cells;
+    cellSetToCellZone heatSource8_cells heatSource8;
+
+    faceZoneToFaceSet heatSource9 heatSource9_faces;
+    faceToCell heatSource9_faces heatSource9_cells;
+    cellSetToCellZone heatSource9_cells heatSource9;
+
+    faceZoneToFaceSet heatSource10 heatSource10_faces;
+    faceToCell heatSource10_faces heatSource10_cells;
+    cellSetToCellZone heatSource10_cells heatSource10;
+
+    faceZoneToFaceSet heatSource11 heatSource11_faces;
+    faceToCell heatSource11_faces heatSource11_cells;
+    cellSetToCellZone heatSource11_cells heatSource11;
+
+    faceZoneToFaceSet heatSource12 heatSource12_faces;
+    faceToCell heatSource12_faces heatSource12_cells;
+    cellSetToCellZone heatSource12_cells heatSource12;
+
+    faceZoneToFaceSet heatSource13 heatSource13_faces;
+    faceToCell heatSource13_faces heatSource13_cells;
+    cellSetToCellZone heatSource13_cells heatSource13;
+
+    faceZoneToFaceSet heatSource14 heatSource14_faces;
+    faceToCell heatSource14_faces heatSource14_cells;
+    cellSetToCellZone heatSource14_cells heatSource14;
+
+    faceZoneToFaceSet heatSource15 heatSource15_faces;
+    faceToCell heatSource15_faces heatSource15_cells;
+    cellSetToCellZone heatSource15_cells heatSource15;
+
+    faceZoneToFaceSet heatSource16 heatSource16_faces;
+    faceToCell heatSource16_faces heatSource16_cells;
+    cellSetToCellZone heatSource16_cells heatSource16;
+
+    faceZoneToFaceSet heatSource17 heatSource17_faces;
+    faceToCell heatSource17_faces heatSource17_cells;
+    cellSetToCellZone heatSource17_cells heatSource17;
+
+    faceZoneToFaceSet heatSource18 heatSource18_faces;
+    faceToCell heatSource18_faces heatSource18_cells;
+    cellSetToCellZone heatSource18_cells heatSource18;
+
+    faceZoneToFaceSet heatSource19 heatSource19_faces;
+    faceToCell heatSource19_faces heatSource19_cells;
+    cellSetToCellZone heatSource19_cells heatSource19;
+
+    faceZoneToFaceSet heatSource20 heatSource20_faces;
+    faceToCell heatSource20_faces heatSource20_cells;
+    cellSetToCellZone heatSource20_cells heatSource20;
+
+    faceZoneToFaceSet heatSource21 heatSource21_faces;
+    faceToCell heatSource21_faces heatSource21_cells;
+    cellSetToCellZone heatSource21_cells heatSource21;
+
+    faceZoneToFaceSet heatSource22 heatSource22_faces;
+    faceToCell heatSource22_faces heatSource22_cells;
+    cellSetToCellZone heatSource22_cells heatSource22;
+
+    faceZoneToFaceSet heatSource23 heatSource23_faces;
+    faceToCell heatSource23_faces heatSource23_cells;
+    cellSetToCellZone heatSource23_cells heatSource23;
+
+    faceZoneToFaceSet heatSource24 heatSource24_faces;
+    faceToCell heatSource24_faces heatSource24_cells;
+    cellSetToCellZone heatSource24_cells heatSource24;
+
+    faceZoneToFaceSet heatSource25 heatSource25_faces;
+    faceToCell heatSource25_faces heatSource25_cells;
+    cellSetToCellZone heatSource25_cells heatSource25;
+
+    faceZoneToFaceSet heatSource26 heatSource26_faces;
+    faceToCell heatSource26_faces heatSource26_cells;
+    cellSetToCellZone heatSource26_cells heatSource26;
+
+    faceZoneToFaceSet heatSource27 heatSource27_faces;
+    faceToCell heatSource27_faces heatSource27_cells;
+    cellSetToCellZone heatSource27_cells heatSource27;
+
+    faceZoneToFaceSet heatSource28 heatSource28_faces;
+    faceToCell heatSource28_faces heatSource28_cells;
+    cellSetToCellZone heatSource28_cells heatSource28;
+
+    faceZoneToFaceSet heatSource29 heatSource29_faces;
+    faceToCell heatSource29_faces heatSource29_cells;
+    cellSetToCellZone heatSource29_cells heatSource29;
+
+    faceZoneToFaceSet heatSource30 heatSource30_faces;
+    faceToCell heatSource30_faces heatSource30_cells;
+    cellSetToCellZone heatSource30_cells heatSource30;
+
+    faceZoneToFaceSet heatSource31 heatSource31_faces;
+    faceToCell heatSource31_faces heatSource31_cells;
+    cellSetToCellZone heatSource31_cells heatSource31;
+
+    faceZoneToFaceSet heatSource32 heatSource32_faces;
+    faceToCell heatSource32_faces heatSource32_cells;
+    cellSetToCellZone heatSource32_cells heatSource32;
+
+    faceZoneToFaceSet heatSource33 heatSource33_faces;
+    faceToCell heatSource33_faces heatSource33_cells;
+    cellSetToCellZone heatSource33_cells heatSource33;
+
+    faceZoneToFaceSet heatSource34 heatSource34_faces;
+    faceToCell heatSource34_faces heatSource34_cells;
+    cellSetToCellZone heatSource34_cells heatSource34;
+
+    faceZoneToFaceSet heatSource35 heatSource35_faces;
+    faceToCell heatSource35_faces heatSource35_cells;
+    cellSetToCellZone heatSource35_cells heatSource35;
+
+    faceZoneToFaceSet heatSource36 heatSource36_faces;
+    faceToCell heatSource36_faces heatSource36_cells;
+    cellSetToCellZone heatSource36_cells heatSource36;
+
+    faceZoneToFaceSet heatSource37 heatSource37_faces;
+    faceToCell heatSource37_faces heatSource37_cells;
+    cellSetToCellZone heatSource37_cells heatSource37;
+
+    faceZoneToFaceSet heatSource38 heatSource38_faces;
+    faceToCell heatSource38_faces heatSource38_cells;
+    cellSetToCellZone heatSource38_cells heatSource38;
+
+    faceZoneToFaceSet heatSource39 heatSource39_faces;
+    faceToCell heatSource39_faces heatSource39_cells;
+    cellSetToCellZone heatSource39_cells heatSource39;
+
+    faceZoneToFaceSet heatSource40 heatSource40_faces;
+    faceToCell heatSource40_faces heatSource40_cells;
+    cellSetToCellZone heatSource40_cells heatSource40;
+
+    faceZoneToFaceSet heatSource41 heatSource41_faces;
+    faceToCell heatSource41_faces heatSource41_cells;
+    cellSetToCellZone heatSource41_cells heatSource41;
+
+    faceZoneToFaceSet heatSource42 heatSource42_faces;
+    faceToCell heatSource42_faces heatSource42_cells;
+    cellSetToCellZone heatSource42_cells heatSource42;
+
+    faceZoneToFaceSet heatSource43 heatSource43_faces;
+    faceToCell heatSource43_faces heatSource43_cells;
+    cellSetToCellZone heatSource43_cells heatSource43;
+
+    faceZoneToFaceSet heatSource44 heatSource44_faces;
+    faceToCell heatSource44_faces heatSource44_cells;
+    cellSetToCellZone heatSource44_cells heatSource44;
+
+    faceZoneToFaceSet heatSource45 heatSource45_faces;
+    faceToCell heatSource45_faces heatSource45_cells;
+    cellSetToCellZone heatSource45_cells heatSource45;
+
+    faceZoneToFaceSet heatSource46 heatSource46_faces;
+    faceToCell heatSource46_faces heatSource46_cells;
+    cellSetToCellZone heatSource46_cells heatSource46;
+
+    faceZoneToFaceSet heatSource47 heatSource47_faces;
+    faceToCell heatSource47_faces heatSource47_cells;
+    cellSetToCellZone heatSource47_cells heatSource47;
+
+    faceZoneToFaceSet heatSource48 heatSource48_faces;
+    faceToCell heatSource48_faces heatSource48_cells;
+    cellSetToCellZone heatSource48_cells heatSource48;
+
+    faceZoneToFaceSet heatSource49 heatSource49_faces;
+    faceToCell heatSource49_faces heatSource49_cells;
+    cellSetToCellZone heatSource49_cells heatSource49;
+
+    faceZoneToFaceSet inlet inlet_faces;
+    faceToCell inlet_faces inlet_cells;
+    cellSetToCellZone inlet_cells inlet;
+
+    faceZoneToFaceSet outlet1 outlet1_faces;
+    faceToCell outlet1_faces outlet1_cells;
+    cellSetToCellZone outlet1_cells outlet1;
+
+    faceZoneToFaceSet outlet2 outlet2_faces;
+    faceToCell outlet2_faces outlet2_cells;
+    cellSetToCellZone outlet2_cells outlet2;
+
+    faceZoneToFaceSet outlet3 outlet3_faces;
+    faceToCell outlet3_faces outlet3_cells;
+    cellSetToCellZone outlet3_cells outlet3;
+);

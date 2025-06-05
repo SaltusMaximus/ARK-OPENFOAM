@@ -1,0 +1,512 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  Field         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /  Operation      | Version:  2306                                  |
+|   \\  /   And            | Website:  www.openfoam.com                      |
+|    \\/     Manipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      topoSetDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+
+    actions
+    (
+    {
+    name    heatSource1;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-22.4372 -18.2425 56.0898) (-16.9276 -13.9502 60.6907);
+    }
+}
+{
+    name    heatSource2;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-28.6514 -18.2425 56.6222) (-22.4372 -13.946 61.1724);
+    }
+}
+{
+    name    heatSource3;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-28.0477 -18.2425 45.181) (-22.7246 -14.0506 49.7208);
+    }
+}
+{
+    name    heatSource4;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (3.60188 -18.2425 43.3192) (8.71957 -14.0064 47.9222);
+    }
+}
+{
+    name    heatSource5;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (10.0499 -18.2425 43.3749) (15.1629 -14.012 47.9906);
+    }
+}
+{
+    name    heatSource6;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (17.7324 -18.2425 24.7666) (22.8256 -14.0263 29.3172);
+    }
+}
+{
+    name    heatSource7;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (23.8745 -18.2425 43.5391) (28.9339 -14.0195 48.1238);
+    }
+}
+{
+    name    heatSource8;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (30.3117 -18.2425 43.5736) (35.4113 -14.0005 48.1848);
+    }
+}
+{
+    name    heatSource9;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (5.99728 -18.2425 35.7949) (11.0302 -13.9891 40.3442);
+    }
+}
+{
+    name    heatSource10;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-10.4269 -18.2425 23.4851) (-5.31067 -14.021 28.1005);
+    }
+}
+{
+    name    heatSource11;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (24.301 -18.2425 24.4889) (29.4048 -14.0082 29.1063);
+    }
+}
+{
+    name    heatSource12;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (12.4117 -18.2425 35.8337) (17.4858 -13.9817 40.4121);
+    }
+}
+{
+    name    heatSource13;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (24.3715 -18.2425 16.6212) (29.4544 -13.9894 21.2143);
+    }
+}
+{
+    name    heatSource14;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-10.6486 -18.2425 16.7946) (-5.56539 -13.9889 21.3782);
+    }
+}
+{
+    name    heatSource15;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-17.6486 -18.2425 16.7946) (-12.5654 -13.9889 21.3782);
+    }
+}
+{
+    name    heatSource16;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-17.4269 -18.2425 23.4851) (-12.3107 -14.021 28.1005);
+    }
+}
+{
+    name    heatSource17;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-17.3579 -18.2425 35.4201) (-12.2456 -14.0263 40.0372);
+    }
+}
+{
+    name    heatSource18;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-3.71921 -18.2425 3.69458) (1.38122 -13.9907 8.27456);
+    }
+}
+{
+    name    heatSource19;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-12.0111 -18.2425 3.65269) (-6.92426 -13.9911 8.23948);
+    }
+}
+{
+    name    heatSource20;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (10.7324 -18.2425 24.7666) (15.8256 -14.0263 29.3172);
+    }
+}
+{
+    name    heatSource21;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (10.7854 -18.2425 16.8685) (15.8493 -14.0117 21.4323);
+    }
+}
+{
+    name    heatSource22;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (17.7854 -18.2425 16.8685) (22.8493 -14.0117 21.4323);
+    }
+}
+{
+    name    heatSource23;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-3.29137 -18.2425 17.8918) (1.78802 -14.0202 22.4684);
+    }
+}
+{
+    name    heatSource24;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (27.5424 -18.2425 4.2474) (32.6392 -13.9871 8.82725);
+    }
+}
+{
+    name    heatSource25;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-40.9646 -18.2425 36.585) (-35.8669 -14.0115 41.1639);
+    }
+}
+{
+    name    heatSource26;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-41.2988 -18.2425 50.7015) (-36.1847 -13.9949 55.2845);
+    }
+}
+{
+    name    heatSource27;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-22.7246 -18.2425 44.4244) (-17.3709 -14.0203 49.0103);
+    }
+}
+{
+    name    heatSource28;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-16.1517 -18.2425 44.4227) (-11.0606 -14.0011 49.0394);
+    }
+}
+{
+    name    heatSource29;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-3.14034 -18.2425 24.3113) (1.94473 -13.9894 28.9002);
+    }
+}
+{
+    name    heatSource30;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-7.19221 -18.2425 58.4858) (-2.08981 -14.0074 63.1027);
+    }
+}
+{
+    name    heatSource31;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-13.3745 -18.2425 58.5324) (-8.25961 -14.0234 63.1493);
+    }
+}
+{
+    name    heatSource32;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (16.2332 -18.2425 57.5085) (21.3484 -14.018 62.1258);
+    }
+}
+{
+    name    heatSource33;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (22.7132 -18.2425 57.5728) (27.7961 -14.0207 62.1493);
+    }
+}
+{
+    name    heatSource34;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (31.3577 -18.2425 50.1917) (36.4319 -13.9861 54.767);
+    }
+}
+{
+    name    heatSource35;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (35.0374 -18.2425 3.21398) (40.1299 -13.9857 7.79318);
+    }
+}
+{
+    name    heatSource36;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (30.9851 -18.2425 17.0337) (36.0786 -13.9997 21.6496);
+    }
+}
+{
+    name    heatSource37;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (30.9828 -18.2425 24.6205) (36.0713 -13.9926 29.2173);
+    }
+}
+{
+    name    heatSource38;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-34.1043 -18.2425 56.6847) (-28.422 -13.9846 61.2475);
+    }
+}
+{
+    name    heatSource39;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (-33.7559 -18.2425 43.711) (-28.7025 -13.9946 48.2696);
+    }
+}
+{
+    name    heatSource40;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (49.4742 -18.2425 53.6417) (54.5451 -13.9912 58.6693);
+    }
+}
+{
+    name    heatSource41;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (49.2061 -18.2425 1.25827) (54.3053 -13.9953 6.30167);
+    }
+}
+{
+    name    heatSource42;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (49.5132 -18.2425 58.4193) (54.5561 -14.0059 63.2317);
+    }
+}
+{
+    name    heatSource43;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (49.2764 -18.2425 6.30167) (54.3199 -13.9893 11.3288);
+    }
+}
+{
+    name    heatSource44;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (49.4389 -18.2425 37.172) (54.5016 -13.9807 42.6693);
+    }
+}
+{
+    name    heatSource45;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (49.5159 -18.2425 41.7668) (54.5419 -14.0064 47.6693);
+    }
+}
+{
+    name    heatSource46;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (49.4703 -18.2425 17.8617) (54.5302 -13.9907 22.4163);
+    }
+}
+{
+    name    heatSource47;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (49.5132 -18.2425 47.4088) (54.5561 -14.0059 52.2317);
+    }
+}
+{
+    name    heatSource48;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (49.4714 -18.2425 23.6422) (54.5561 -13.9893 28.2299);
+    }
+}
+{
+    name    heatSource49;
+    type    cellSet;
+    action  new;
+    source  boxToCell;
+    sourceInfo
+    {
+        box (49.4742 -18.2425 12.6417) (54.5596 -13.9912 17.1875);
+    }
+}
+
+    );

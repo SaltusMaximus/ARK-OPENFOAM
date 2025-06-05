@@ -1,0 +1,1046 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\      /  Operation     | Version: 2306                                  |
+|   \\    /   Manipulation   | www.openfoam.com                               |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      fvOptions;
+}
+
+// ************************************************************************* //
+heatSource1
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource1;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource2
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource2;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource3
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource3;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource4
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource4;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource5
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource5;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource6
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource6;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource7
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource7;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource8
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource8;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource9
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource9;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource10
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource10;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource11
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource11;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource12
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource12;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource13
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource13;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource14
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource14;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource15
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource15;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource16
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource16;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource17
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource17;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource18
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource18;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource19
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource19;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource20
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource20;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource21
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource21;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource22
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource22;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource23
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource23;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource24
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource24;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource25
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource25;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource26
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource26;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource27
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource27;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource28
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource28;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource29
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource29;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource30
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource30;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource31
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource31;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource32
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource32;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource33
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource33;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource34
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource34;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource35
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource35;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource36
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource36;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource37
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource37;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource38
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource38;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource39
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource39;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource40
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource40;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource41
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource41;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource42
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource42;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource43
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource43;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource44
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource44;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource45
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource45;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource46
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource46;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource47
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource47;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource48
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource48;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+heatSource49
+{
+    type            scalarSemiImplicitSource;
+    active          true;
+
+    scalarSemiImplicitSourceCoeffs
+    {
+        selectionMode   cellSet;
+        cellSet         heatSource49;
+        volumeMode      specific;
+
+        fieldNames      (T);
+        explicit        1;
+        coupled         false;
+        injectionRateSuSp
+        {
+            T   (628020 0);
+        }
+    }
+}
+
+// ************************************************************************* //

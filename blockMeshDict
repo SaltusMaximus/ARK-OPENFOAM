@@ -1,0 +1,65 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| OpenFOAM: The Open Source CFD Toolbox                                      |
+\*---------------------------------------------------------------------------*/
+
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      blockMeshDict;
+}
+
+convertToMeters 1.0;
+
+/*
+    Vertex layout:
+    0 - bottom-front-left
+    1 - bottom-front-right
+    2 - bottom-back-right
+    3 - bottom-back-left
+    4 - top-front-left
+    5 - top-front-right
+    6 - top-back-right
+    7 - top-back-left
+*/
+
+vertices
+(
+    (-69.236  -22.2571  -26)       // 0 - bottom-front-left
+    ( 77.1207 -22.2571  -26)       // 1 - bottom-front-right
+    ( 77.1207   18.84946 -26)       // 2 - bottom-back-right
+    (-69.236   18.84946 -26)        // 3 - bottom-back-left
+    (-69.236  -22.2571  90)        // 4 - top-front-left
+    ( 77.1207 -22.2571  90)        // 5 - top-front-right
+    ( 77.1207   18.84946 90)        // 6 - top-back-right
+    (-69.236   18.84946 90)         // 7 - top-back-left
+);
+
+blocks
+(
+    hex (0 1 2 3 4 5 6 7) (106 48 81) simpleGrading (1 1 1)
+);
+
+edges ();
+
+boundary
+(
+    baseBox
+    {
+        type wall;
+        faces
+        (
+            (0 3 7 4)  // left
+            (1 2 6 5)  // right
+            (0 1 5 4)  // front
+            (3 2 6 7)  // back
+            (0 1 2 3)  // bottom
+            (4 5 6 7)  // top
+        );
+    }
+);
+
+mergePatchPairs ();
